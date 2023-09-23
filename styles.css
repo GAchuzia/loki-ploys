@@ -109,38 +109,3 @@ header nav ul li a {
 .odin-link:hover{
     color: #e5ee94;
 }
-
-.about-box3 {
-    text-align: center;
-    font-size: 15px;
-    padding: 7em;
-    position: absolute;
-    width: 12em;
-    height: 7.5em;
-    left: 36%;
-    background-color: #81AB9D;
-    color:  #e5ee94;
-    border-radius: 10px;
-}
-
-.about-box4 {
-    text-align: center;
-    font-size: 15px;
-    padding: 8em;
-    width: 10em;
-    height: 6em; 
-    background-color:  #1E2F3B;
-    box-shadow: 2px 2px  #1E2F3B;
-    color: #81AB9D;
-    border-radius: 10px;
-    position: absolute;
-    top: 47%;
-    left: 52%;
-    transform: translate(-50%, -50%);
-}
-
-.about-box4 p{
-    color: #c1c5a7;
-    text-align: center;
-    width: 180px;
-}
