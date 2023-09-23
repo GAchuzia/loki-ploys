@@ -3,7 +3,8 @@ body {
     background: #E6E5A7;
     font-family: serif;
     font-weight: 350;
-
+    overflow: hidden;
+    
 }
 
 .container {
@@ -41,7 +42,7 @@ nav li {
 }
 
 nav ul li a {
-    color: #F5F5F7;
+    color: #eff5b7;
     font-size: 100%;
     text-decoration:  none;
     text-transform: uppercase;
@@ -49,4 +50,50 @@ nav ul li a {
 
 nav ul li a:hover {
     color:#b3b3b3;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+}
+
+.about-box {
+    text-align: center;
+    font-size: 15px;
+    padding: 7em;
+    position: absolute;
+    width: 12em;
+    height: 7.5em;
+    left: 36%;
+    background-color: #1E2F3B;
+    color: #2C3147;
+    border-radius: 10px;
+}
+
+.about-box2 {
+    text-align: center;
+    font-size: 15px;
+    padding: 8em;
+    width: 10em;
+    height: 6em; 
+    background-color: #81AB9D;
+    box-shadow: 2px 2px #81AB9D;
+    color: #2C3147;
+    border-radius: 10px;
+    position: absolute;
+    top: 47%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.about-box2 h4{
+    color: #1E2F3B;
+}
+
+.about-box2 p{
+    color: #1E2F3B;
 }
