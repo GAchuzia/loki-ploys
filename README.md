@@ -1,4 +1,4 @@
-# loki-ploys
+# [loki-ploys](https://gachuzia.github.io/loki-ploys/)
 My assignments for the Odin Project's Foundation and JavaScript courses, with a fun twist!
 
 ## Tools & Technologies
