@@ -32,13 +32,11 @@ nav ul {
     padding: 0;
 }
 
-nav li {
-    
+nav li {  
     display: inline-block;
     text-align: center;
     margin-left: 40px;
-    padding: 20px 0;
-    position: relative;
+    padding: 20px 0;   
 }
 
 nav ul li a {
