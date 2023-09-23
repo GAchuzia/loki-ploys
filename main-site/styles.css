@@ -50,6 +50,9 @@ nav ul li a:hover {
     color:#81AB9D;
 }
 
+header nav ul li a {
+    text-shadow: 1px 1px  black; /* Adjust these values as needed */
+}
 .about-container {
     display: flex;
     flex-direction: column;
@@ -94,4 +97,15 @@ nav ul li a:hover {
 
 .about-box2 p{
     color: #1E2F3B;
+    text-align: center;
+    width: 180px;
+}
+
+.odin-link{
+    text-decoration: none;
+    color: #2C3147;
+}
+
+.odin-link:hover{
+    color: #e5ee94;
 }
