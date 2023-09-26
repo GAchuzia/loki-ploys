@@ -68,7 +68,7 @@ header nav ul li a {
     padding: 7em;
     position: absolute;
     width: 12em;
-    height: 7.5em;
+    height: 6.5em;
     left: 36%;
     background-color: #1E2F3B;
     color: #2C3147;
@@ -80,13 +80,13 @@ header nav ul li a {
     font-size: 15px;
     padding: 8em;
     width: 10em;
-    height: 6em; 
+    height: 5em; 
     background-color: #81AB9D;
     box-shadow: 2px 2px #81AB9D;
     color: #2C3147;
     border-radius: 10px;
     position: absolute;
-    top: 47%;
+    top: 45%;
     left: 52%;
     transform: translate(-50%, -50%);
 }
@@ -97,8 +97,11 @@ header nav ul li a {
 
 .about-box2 p{
     color: #1E2F3B;
-    text-align: center;
-    width: 180px;
+    width: 289px;
+    position: absolute;
+    top: 30%;
+    left:14%;
+    font-size: 25px;
 }
 
 .odin-link{
