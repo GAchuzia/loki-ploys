@@ -53,62 +53,36 @@ nav ul li a:hover {
 header nav ul li a {
     text-shadow: 1px 1px  black; /* Adjust these values as needed */
 }
-.about-container {
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Use min-height to ensure it takes up at least the full viewport height */
+  position: relative;
+}
+
+.card1 {
+    font-size: 23px;
+    box-shadow: 2px 2px 2px 2px  #1E2F3B;
+    width: 12em;
+    height: 6em; 
+    background-color: #f0f0f0;
+    border: 3px solid #2C3147;
+    color: #1E2F3B;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    position: relative;
-}
-
-.about-box {
     text-align: center;
-    font-size: 15px;
-    padding: 7em;
-    position: absolute;
-    width: 12em;
-    height: 6.5em;
-    left: 36%;
-    background-color: #1E2F3B;
-    color: #2C3147;
-    border-radius: 10px;
-}
-
-.about-box2 {
-    text-align: center;
-    font-size: 15px;
-    padding: 8em;
-    width: 10em;
-    height: 5em; 
+    border-radius: 3%;
     background-color: #81AB9D;
-    box-shadow: 2px 2px #81AB9D;
-    color: #2C3147;
-    border-radius: 10px;
-    position: absolute;
-    top: 45%;
-    left: 52%;
-    transform: translate(-50%, -50%);
+    padding: 5%;
 }
-
-.about-box2 h4{
-    color: #1E2F3B;
-}
-
-.about-box2 p{
-    color: #1E2F3B;
-    width: 289px;
-    position: absolute;
-    top: 30%;
-    left:14%;
-    font-size: 25px;
-}
-
-.odin-link{
+.card1 a{
     text-decoration: none;
-    color: #2C3147;
+    color:#1E2F3B
 }
-
-.odin-link:hover{
-    color: #e5ee94;
+.card1 a:hover{
+    color:#E6E5A7;
 }
