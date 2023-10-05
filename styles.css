@@ -86,3 +86,35 @@ header nav ul li a {
 .card1 a:hover{
     color:#E6E5A7;
 }
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Use min-height to ensure it takes up at least the full viewport height */
+    position: relative;
+}
+
+.projects-container a{
+    text-decoration: none;
+}
+
+.projects-container a .project1:hover{
+    color:#E6E5A7
+}
+.project1{
+    font-size: 23px;
+    width: 12em;
+    height: 6em; 
+    background-color: #f0f0f0;
+    border: 3px solid #2C3147;
+    color: #1E2F3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    background-color: #81AB9D;
+    padding: 5%;
+}
