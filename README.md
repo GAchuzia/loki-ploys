@@ -1,5 +1,8 @@
 # [loki-ploys](https://gachuzia.github.io/loki-ploys/)
-My assignments for the Odin Project's Foundation and JavaScript courses, with a fun twist!
+
+My assignments for the Odin Project's Foundation and JavaScript courses.
+
+Once I've  completed a few assignments and feel like my web development skills are stronger, I'll go back to my old work and give them fun **twists**.
 
 ## Tools & Technologies
 <div>
