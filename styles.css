@@ -4,7 +4,6 @@ body {
     font-family: serif;
     font-weight: 350;
     overflow: hidden;
-    
 }
 
 .container {
@@ -13,7 +12,7 @@ body {
 
 header {
     background-color: #81AB9D;
-    border: 2px solid #1E2F3B
+    border-bottom: 2px solid #1E2F3B
 }
 
 header::after{
@@ -118,4 +117,21 @@ header nav ul li a {
     border-radius: 5%;
     background-color: #81AB9D;
     padding: 5%;
+}
+
+.github-link{
+    display: flex;
+    justify-content:right;
+    margin-top: -40px;
+}
+
+.github-link img{
+ 
+    height: 120px;
+}
+
+.github-link img:hover{
+    color:#1E2F3B;
+    transform: scale(1.1);
+    cursor: pointer;
 }
