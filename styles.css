@@ -12,7 +12,8 @@ body {
 }
 
 header {
-    background-color: #1E2F3B;
+    background-color: #81AB9D;
+    border: 2px solid #1E2F3B
 }
 
 header::after{
@@ -23,7 +24,6 @@ header::after{
 
 nav {
     text-align: center;
-    
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:#81AB9D;
+    color:#FFF44F;
 }
 
 header nav ul li a {
@@ -65,7 +65,7 @@ header nav ul li a {
 
 .card1 {
     font-size: 23px;
-    box-shadow: 2px 2px 2px 2px  #1E2F3B;
+    box-shadow: 2px 2px #1E2F3B;
     width: 12em;
     height: 6em; 
     background-color: #f0f0f0;
@@ -84,7 +84,7 @@ header nav ul li a {
     color:#1E2F3B
 }
 .card1 a:hover{
-    color:#E6E5A7;
+    color:#FFF44F;
 }
 
 .projects-container{
@@ -100,9 +100,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
-.projects-container a .project1:hover{
-    color:#E6E5A7
+.projects-container a .proj-title:hover{
+    color:#eff5b7;
 }
+
 .project1{
     font-size: 23px;
     width: 12em;
