@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:#FFF44F;
+    color:#f1e423;
 }
 
 header nav ul li a {
@@ -83,7 +83,7 @@ header nav ul li a {
     color:#1E2F3B
 }
 .card1 a:hover{
-    color:#eff5b7;
+    color:#f1e423;
 }
 
 .projects-container{
@@ -100,7 +100,7 @@ header nav ul li a {
 }
 
 .projects-container a .proj-title:hover{
-    color:#eff5b7;
+    color:#f1e423;
 }
 
 .project1{
