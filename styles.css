@@ -99,10 +99,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
-.projects-container a .proj-title:hover{
-    color:#f1e423;
+.project1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
-
 .project1{
     font-size: 23px;
     width: 12em;
