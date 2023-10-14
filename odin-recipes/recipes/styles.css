@@ -1,27 +1,38 @@
 body {
-    margin: 0;
     background: #fff;
     font-family: serif;
     font-weight: 350;
-    overflow: hidden;
+    margin: 0; 
+    height: 100vh;
 }
 
 .food-container{
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
+    height: 100%;
+    
+}
+
+.food1, .food2, .food3{
+    border: 2px solid;
+    flex:1;
+
+}
+.food1 p, .food2 p, .food3 p{
     text-align: center;
-    justify-content: center;
-}
-
-.food1{
 
 }
 
+.food1-img{
+    width: 100%;
+    height: 100%;
+}
 .food2{
+    
 
+    
 }
 
 .food3{
-
+    
 }
