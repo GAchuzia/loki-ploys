@@ -121,8 +121,9 @@ header nav ul li a {
 
 .github-link{
     display: flex;
-    justify-content:center;
+    justify-content:right;
     margin-top: 15px;
+    margin-right: 10px;
 }
 
 .github-link p{
