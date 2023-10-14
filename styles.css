@@ -121,17 +121,18 @@ header nav ul li a {
 
 .github-link{
     display: flex;
-    justify-content:right;
-    margin-top: -40px;
+    justify-content:center;
+    margin-top: 15px;
 }
 
-.github-link img{
- 
-    height: 120px;
+.github-link p{
+    font-size: 15px;
 }
 
-.github-link img:hover{
-    color:#1E2F3B;
-    transform: scale(1.1);
-    cursor: pointer;
+.github-link p a{
+    text-decoration: none;
+}
+
+.github-link p a:hover{
+    color:#5baf92;
 }
