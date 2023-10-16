@@ -6,6 +6,9 @@ body {
     height: 100vh;
 }
 
+h1{
+    text-align: center
+}
 .food-container{
     display: flex;
     flex-direction: row;
@@ -21,18 +24,4 @@ body {
 .food1 p, .food2 p, .food3 p{
     text-align: center;
 
-}
-
-.food1-img{
-    width: 100%;
-    height: 100%;
-}
-.food2{
-    
-
-    
-}
-
-.food3{
-    
 }
