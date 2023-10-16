@@ -4,24 +4,43 @@ body {
     font-weight: 350;
     margin: 0; 
     height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1{
     text-align: center
 }
 .food-container{
+    border: 2px solid;
     display: flex;
-    flex-direction: row;
-    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    flex-grow: 1;
+    
     
 }
 
-.food1, .food2, .food3{
+.food-img{
     border: 2px solid;
-    flex:1;
-
-}
-.food1 p, .food2 p, .food3 p{
     text-align: center;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5%;
 
 }
+
+.recipe-list{
+    text-align: center;
+    text-decoration: none;
+}
+
+.recipe-list ul{
+    list-style:  none;
+    padding: 0;
+}
+
