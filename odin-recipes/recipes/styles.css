@@ -112,11 +112,12 @@ h1{
 
 .github-link p{
     font-size: 15px;
-    color: #dd9c4c;
+    
 }
 
 .github-link p a{
     text-decoration: none;
+    color: #dd9c4c;
 }
 
 .github-link p a:hover{
