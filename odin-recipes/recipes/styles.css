@@ -105,24 +105,3 @@ h1{
     list-style: none;
     color: #eb776a;
 }
-
-.github-link{
-    display: flex;
-    justify-content:right;
-    margin-top: 15px;
-    margin-right: 10px;
-}
-
-.github-link p{
-    font-size: 15px;
-    
-}
-
-.github-link p a{
-    text-decoration: none;
-    color: #dd9c4c;
-}
-
-.github-link p a:hover{
-    color:#eb776a;
-}
