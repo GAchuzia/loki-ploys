@@ -1,3 +1,23 @@
 *{
+    margin:0;
+}
+
+.box1{
+    background-color: #1F2937;
+}
+
+.box2{
+    background-color: #F9FAF8;
+}
+
+.box3{
+    background-color: #E5E7EB;
+}
+
+.box4{
+    background-color: #F9FAF8;
+}
+
+.footer{
     background-color: #1F2937;
 }
