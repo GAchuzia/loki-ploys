@@ -1,11 +1,42 @@
 *{
-    margin:0;
+    margin: 0;
 }
+
 
 .box1{
     background-color: #1F2937;
+    display: flex;
+    padding:2%;
+    padding-bottom: 5em;
 }
 
+.logo{
+    color: #F9FAF8;
+    margin-right: 14em;
+}
+
+.navbar{
+    color:#F9FAF8;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar ul li{
+    margin-right: 1em;
+}
+
+.box11{
+    background-color: #1F2937;
+}
+
+.box11 p b{
+    font-size: 30px;
+    color: #F9FAF8;
+}
 .box2{
     background-color: #F9FAF8;
 }
