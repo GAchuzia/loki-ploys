@@ -88,22 +88,23 @@ header nav ul li a {
 
 .projects-container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh; /* Use min-height to ensure it takes up at least the full viewport height */
-    position: relative;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 80vh;
+    position: relative;    
 }
 
 .projects-container a{
     text-decoration: none;
 }
 
-.project1:hover{
-    transform: scale(1.1);
+.project1:hover, .project2:hover{
+    transform: scale(1.07);
     cursor: pointer;
 }
-.project1{
+
+.project1, .project2{
     font-size: 23px;
     width: 12em;
     height: 6em; 
@@ -112,11 +113,11 @@ header nav ul li a {
     color: #1E2F3B;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     border-radius: 5%;
     background-color: #81AB9D;
     padding: 5%;
+    margin-left: 3em;
 }
 
 .github-link-card{
